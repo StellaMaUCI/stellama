@@ -1,0 +1,150 @@
+# Site settings
+baseurl = "https://example.org/"
+languageCode = "en-us"
+title = "Hugo Stellar Theme"
+theme = "hugo-stellar-theme"
+ 
+googleAnalytics = "" #put your google-analytics ID here
+
+[params]
+  [params.header]
+    title = "Shengwen(Stella) Ma"
+    description = "Software Engineering student, class 2023"
+    #image = "avatar.jpg"
+
+  [[params.navigation]]
+    name = "Introduction"
+    href = "#intro"
+
+  [[params.navigation]]
+    name = "Tech Skills"
+    href = "#ski"
+
+  [[params.navigation]]
+    name = "Projects"
+    href = "#proj"
+
+  [[params.navigation]]
+    name = "Experiences"
+    href = "#exp"
+
+  [params.intro]
+    title = "Introduction"
+    description = "Master of Software Engineering, University of California, Irvine, California 2023"
+    image = "images/avatar.jpg"
+    [[params.intro.action]]
+      buttontext = "Learn More"
+      href = "generic.html"
+
+  [[params.section]]
+    id = "ski"
+    title = "Tech Skills"
+    description = ""
+    
+    # the picture is stored at static/images/
+    [params.section.features]
+      enable = true
+      [[params.section.feature]]
+        title = "Programming languages"
+        description = "Python, SQL, C++, Java"
+        icon = "fa-code"
+
+      [[params.section.feature]]
+        title = "Tools"
+        description = "IntelliJ Idea, Visual Studio, PyCharm, MySQL, Oracle Live SQL, Keras/TensorFlow, Jupyter Notebook, Numpy, Matplotlib, Junit5, Mockito, TravisCI, Git/Github, Tmux, Flask, Figma, Excel, Hugo"
+        icon = "fa-copy"
+
+      [[params.section.feature]]
+        title = "Competence"
+        description = "Data Structures and Algorithms, Concurrent Programming, Network Programming, Web Dev and Programming, Testing and Debugging, Security, Deep Learning, Windows OS, Mac OS, Linux OS"
+        icon = "fa-diamond"
+    [params.section.footer]
+      enable = true
+      [[params.section.footer.action]]
+        buttontext = "Learn More"
+        buttonUrl = "generic.html"
+
+  [[params.section]]
+    id = "proj"
+    title = "Projects"
+    description = "Projects Experiences"
+
+    [params.section.statistics]
+      enable = true
+      [[params.section.statistic]]
+        icon = "fa-code-fork"
+        value = "5,120"
+        text = "forks"
+      [[params.section.statistic]]
+        icon = "fa-folder-open-o"
+        value = "8,192"
+        text = "Repos"
+      [[params.section.statistic]]
+        icon = "fa-signal"
+        value = "2,048"
+        text = "leetcode"
+      [[params.section.statistic]]
+        icon = "fa-laptop"
+        value = "4,096"
+        text = "Operating Systems"
+      [[params.section.statistic]]
+        icon = "fa-diamond"
+        value = "184"
+        text = "Stars"
+
+    [params.section.content]
+      enable = true
+      text = " Software programming projects in varieties of tech stacks "
+
+
+
+  [[params.section]]
+    id = "exp"
+    title = "Working Experiences"
+    description = ""
+    [params.section.footer]
+      enable = true
+      [[params.section.footer.action]]
+        buttontext = "Learn More"
+        buttonUrl = "generic.html"
+  [[params.section]]
+  [params.footer]
+    enable = true
+#    title = "Aliquam sed mauris"
+#    description = "Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio."
+
+#    second_title = ""
+#    address = "1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA"
+#    phone = "(000) 000-0000 x 0000"
+#    email = "information@untitled.tld"
+
+#    [[params.footer.action]]
+#      href = "generic.html"
+#      buttontext = "Learn More"
+
+    # social icons
+    [params.footer.social_list]
+      enable = true
+
+      [[params.footer.social]]
+        title = "Github"
+        icon = "fa-github"
+        link = "https://github.com/StellaMaUCI"
+
+      [[params.footer.social]]
+        title = "LinkedIn"
+        icon = "fa-linkedin"
+        link = "https://www.linkedin.com/in/stellashengwenma/"
+
+      [[params.footer.social]]
+        title = "Email"
+        icon = "fa-envelope"
+        link = "shengwm1@uci.edu"
+
+    # copyright
+    [params.footer.copyright]
+      enable = true
+      text = "© Content: Shengwen(Stella) Ma, Design: HTML5UP"
+
+
+
