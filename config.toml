@@ -10,7 +10,7 @@ googleAnalytics = "" #put your google-analytics ID here
   [params.header]
     title = "Shengwen(Stella) Ma"
     description = "Software Engineering student, class 2023"
-    #image = "avatar.jpg"
+    #image = "pic07.jpg"
 
   [[params.navigation]]
     name = "Introduction"
@@ -34,7 +34,7 @@ googleAnalytics = "" #put your google-analytics ID here
     image = "images/avatar.jpg"
     [[params.intro.action]]
       buttontext = "Learn More"
-      href = "generic.html"
+      href = "html/generic.html"
 
   [[params.section]]
     id = "ski"
